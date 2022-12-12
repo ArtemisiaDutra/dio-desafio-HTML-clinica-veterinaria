@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,200;1,600&family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+
+}
+
+/* menu */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1vw;
+}
+
+ul {
+    list-style: none;
+    width: 14rem;
+}
+
+span {
+    position: relative;
+    margin-left: 0.5rem;
+  
+}
+.menu ion-icon {
+    color: #fff;
+    font-size: 1.8vw;
+}
+
+.wrapper {
+    width: 150%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    position: relative;
+    min-width: 25%;
+    background-color: #15CBA9;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.menu ul {
+    font-size: 1.3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu img {
+    max-width: 4rem;
+    border-radius: 40px;
+    display: flex;
+    margin: auto;
+    display: block;
+}
+
+.menu h2 {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+nav {
+    position: absolute;
+    max-width: 10%;
+
+}
+
+nav a {
+    position: relative;
+    right: 6rem;
+
+}
+nav ul {
+    margin-top: 12rem;
+    padding-left: 1rem;   
+}
+
+
+.menu a:hover {
+    color: #FFCD1C;
+   
+}
+
+/* header */
+
+.header {
+    background-color: rgba(231, 229, 229, 0.719);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 5rem;
+}
+
+.left > img {
+    width: 10rem;
+    height: 20rem;
+    margin-top: 0;
+
+}
+
+.descricao-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+   
+}
+
+.sair-btn {
+    padding: 5px;
+    background: #29e0bf;
+    border-radius: 3px;
+    float: right;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+
+  
+
+}
+.sair-btn:hover {
+    background: turquoise;
+}
+
+/* content */
+
+.content {
+
+    background-color: #FAFAFA;
+    height: 60%;
+    
+}
+
+h4 {
+    font-size: 1.5vw;
+    background-color: #FFCD1C;
+    margin: 0;
+    padding-left: 1rem;
+    width: 0.0001rem;    
+}
+
+h4 {
+    
+}
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+    box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.082);
+    border: solid 1px rgb(160, 159, 159);
+}
+
+caption {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+table {
+    margin-top: 50px;
+}
+table thead th {
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
+
+table > td {
+    background-color: lightgray;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    background-color: #29e0bf;
+}
+table tbody tr:nth-child(even) td {
+  background-color: lightgrey;  
+}
+table tbody tr:hover td {
+  background-color: #fff;  
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    min-height: 150px;
+
+}
+
+.rodape1 img {
+    display: flex;
+    justify-content: center;
+    width: 16vw;
+    margin-left: 2rem;
+
+}
+
+.atendimento {
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 1rem;
+
+}
+
+h6 {
+    color: #333333;
+    font-size: 1vw;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+
+h5 {
+    display: flex;
+    justify-content: center;
+    color: #333333;
+    font-size: 1.3vw;
+    margin: 0;
+}
+
+
+.rodape2 {
+    display: block;
+    justify-content: center;
+    padding-top: 1%;
+    margin-right: 1rem;
+    width: 25%;
+    font-size: 1vw;
+}
+
+.rodape2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape2 ion-icon {
+    font-size: 2.2vw;
+    color: #333333;
+
+}
+
+.rodape2 ul {
+    display: contents;
+    justify-items: center;
+}
+
+.rodape2 > span {
+    font-size: 1.2vw;
+}
+
+.rodape3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #757474;
+    color: white;
+    font-size: 1vw;
+
+}
